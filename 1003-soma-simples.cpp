@@ -2,11 +2,11 @@
 
 using namespace std;
 
-int main() {
+int main(){
 
 	int a, b;
 	cin >> a >> b;
-	cout << "X = " << (a + b) << "\n";
-
+	cout <<  "SOMA = " << (a + b) << "\n";
+	
 	return 0;
 }
