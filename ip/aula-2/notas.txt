@@ -1,0 +1,3 @@
+Alexandre 5.0 4.5
+Fernando 9.0 10.0
+Adriano 3.0 1.5
