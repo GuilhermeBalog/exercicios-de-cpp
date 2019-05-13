@@ -14,7 +14,7 @@ int main()
 		for (int i = 0; i < linhas; i++)
 			matriz[i] = (int*)malloc(sizeof(int) * colunas);
 
-		//Usuário digita 0 ou 1 pra cada célula
+		//Usuï¿½rio digita 0 ou 1 pra cada cï¿½lula
 		for (int i = 0; i < linhas; i++) {
 			for (int j = 0; j < colunas; j++) {
 				cin >> matriz[i][j];
@@ -29,25 +29,25 @@ int main()
 				else {
 					int total = 0;
 
-					//Se não for a primeira linha
+					//Se nï¿½o for a primeira linha
 					if (i != 0) {
 						//olha em cima (linha atual - 1) 
 						total += matriz[i - 1][j];
 					}
 
-					//Se não for a última linha
+					//Se nï¿½o for a ï¿½ltima linha
 					if (i != (linhas - 1)) {
 						//olha em baixo (linha atual + 1)
 						total += matriz[i + 1][j];
 					}
 
-					//Se não for a primeira coluna
+					//Se nï¿½o for a primeira coluna
 					if (j != 0) {
 						//olha pra esquerda (coluna atual - 1)
 						total += matriz[i][j - 1];
 					}
 
-					//Se não for a última coluna
+					//Se nï¿½o for a ï¿½ltima coluna
 					if (j != (colunas - 1)) {
 						//olha pra direita (coluna atual + 1)
 						total += matriz[i][j + 1];
